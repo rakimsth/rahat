@@ -82,7 +82,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn run pretty && git add ."
+      "pre-commit": "echo \"[Husky] pre-commit\""
     }
   }
 }
