@@ -13,6 +13,7 @@ module.exports = {
     'class-methods-use-this': 0,
     'no-console': 0,
     'no-param-reassign': 0,
+    'eol-last': ['error', 'always'],
     quotes: [2, 'single', {avoidEscape: true, allowTemplateLiterals: true}],
     'prettier/prettier': [
       'error',
