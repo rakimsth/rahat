@@ -13,7 +13,8 @@
     "test:watch": "cross-env NODE_ENV=development jest --runInBand --detectOpenHandles --watch ./tests",
     "start": "cross-env ENV_TYPE=development nodemon .",
     "production": "ENV_TYPE=production node .",
-    "setup": "yarn install"
+    "setup": "yarn install",
+    "prepare": "husky install"
   },
   "author": {
     "email": "team@esatya.io",
@@ -72,17 +73,12 @@
     "eslint-plugin-jest": "^24.0.0",
     "eslint-plugin-prettier": "^3.1.4",
     "ganache-core": "^2.13.2",
-    "husky": "^7.0.4",
+    "husky": "^7.0.0",
     "jest": "^26.4.2",
     "merge": "^1.2.1",
     "mongodb": "^4.2.0",
     "prettier": "^2.1.1",
     "prettier-plugin-solidity": "^1.0.0-alpha.57",
     "truffle": "^5.1.42"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo \"[Husky] pre-commit\""
-    }
   }
 }
